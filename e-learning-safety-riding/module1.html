@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dasar-dasar Safety Riding - E-Learning Safety Riding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-['Roboto'] min-h-screen">
+  <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">Dasar-dasar Safety Riding</h1>
+    <a href="modules.html" class="hover:underline"><i class="fas fa-arrow-left"></i> Kembali ke Modul</a>
+  </header>
+  <main class="max-w-4xl mx-auto p-6 bg-white rounded shadow mt-6">
+    <section class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Materi</h2>
+      <p><strong>Definisi:</strong> Dasar-dasar keselamatan berkendara sepeda motor meliputi pemahaman aturan lalu lintas, penggunaan perlengkapan keselamatan, dan sikap berkendara yang aman.</p>
+      <p><strong>Penyebab:</strong> Kurangnya pengetahuan dan kesadaran tentang keselamatan berkendara dapat menyebabkan kecelakaan.</p>
+      <p><strong>Antisipasi/Pencegahan:</strong> Selalu patuhi aturan lalu lintas, gunakan perlengkapan keselamatan, dan berkendaralah dengan hati-hati.</p>
+    </section>
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Quiz</h2>
+      <form id="quizForm">
+        <div class="mb-4">
+          <p>1. Apa perlengkapan keselamatan yang wajib digunakan saat berkendara?</p>
+          <label class="block"><input type="radio" name="q1" value="a" required /> a) Helm, jaket, dan sepatu</label>
+          <label class="block"><input type="radio" name="q1" value="b" /> b) Kacamata hitam dan topi</label>
+          <label class="block"><input type="radio" name="q1" value="c" /> c) Sandal dan kaos</label>
+        </div>
+        <div class="mb-4">
+          <p>2. Mengapa penting mematuhi aturan lalu lintas?</p>
+          <label class="block"><input type="radio" name="q2" value="a" required /> a) Untuk keselamatan diri dan orang lain</label>
+          <label class="block"><input type="radio" name="q2" value="b" /> b) Agar terlihat keren</label>
+          <label class="block"><input type="radio" name="q2" value="c" /> c) Supaya cepat sampai tujuan</label>
+        </div>
+        <div class="mb-4">
+          <p>3. Sikap berkendara yang aman adalah...</p>
+          <label class="block"><input type="radio" name="q3" value="a" required /> a) Mengemudi dengan hati-hati dan waspada</label>
+          <label class="block"><input type="radio" name="q3" value="b" /> b) Mengemudi dengan kecepatan tinggi</label>
+          <label class="block"><input type="radio" name="q3" value="c" /> c) Mengabaikan rambu lalu lintas</label>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Submit Quiz</button>
+      </form>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
