@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Statistik - E-Learning Safety Riding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-['Roboto'] min-h-screen">
+  <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">Statistik E-Learning Safety Riding</h1>
+    <a href="modules.html" class="hover:underline"><i class="fas fa-arrow-left"></i> Kembali ke Modul</a>
+  </header>
+  <main class="max-w-4xl mx-auto p-6 bg-white rounded shadow mt-6 space-y-6">
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Partisipasi Berdasarkan Bagian</h2>
+      <div id="participationByDepartment" class="text-gray-700"></div>
+    </section>
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Performa Masing-masing Modul</h2>
+      <div id="performanceByModule" class="text-gray-700"></div>
+    </section>
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Rata-rata Skor Quiz Keseluruhan</h2>
+      <div id="averageScore" class="text-gray-700"></div>
+    </section>
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Statistik Penyelesaian Modul</h2>
+      <div id="moduleCompletion" class="text-gray-700"></div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
