@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blind Spot - E-Learning Safety Riding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-['Roboto'] min-h-screen">
+  <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">Blind Spot</h1>
+    <a href="modules.html" class="hover:underline"><i class="fas fa-arrow-left"></i> Kembali ke Modul</a>
+  </header>
+  <main class="max-w-4xl mx-auto p-6 bg-white rounded shadow mt-6">
+    <section class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Materi</h2>
+      <p>Blind spot adalah area di sekitar kendaraan yang tidak terlihat oleh pengemudi melalui kaca spion. Penting untuk selalu memeriksa blind spot sebelum berpindah jalur atau berbelok untuk menghindari kecelakaan.</p>
+    </section>
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Quiz</h2>
+      <form id="quizForm">
+        <div class="mb-4">
+          <p>1. Apa itu blind spot?</p>
+          <label class="block"><input type="radio" name="q1" value="a" required /> a) Area yang tidak terlihat oleh pengemudi melalui kaca spion</label>
+          <label class="block"><input type="radio" name="q1" value="b" /> b) Teknik pengereman darurat</label>
+          <label class="block"><input type="radio" name="q1" value="c" /> c) Kondisi mengantuk singkat</label>
+        </div>
+        <div class="mb-4">
+          <p>2. Mengapa penting memeriksa blind spot sebelum berpindah jalur?</p>
+          <label class="block"><input type="radio" name="q2" value="a" required /> a) Untuk menghindari kecelakaan dengan kendaraan lain</label>
+          <label class="block"><input type="radio" name="q2" value="b" /> b) Agar terlihat keren</label>
+          <label class="block"><input type="radio" name="q2" value="c" /> c) Supaya cepat sampai tujuan</label>
+        </div>
+        <div class="mb-4">
+          <p>3. Bagaimana cara memeriksa blind spot dengan benar?</p>
+          <label class="block"><input type="radio" name="q3" value="a" required /> a) Memutar kepala dan melihat ke arah blind spot secara langsung</label>
+          <label class="block"><input type="radio" name="q3" value="b" /> b) Hanya mengandalkan kaca spion</label>
+          <label class="block"><input type="radio" name="q3" value="c" /> c) Mengabaikan blind spot</label>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Submit Quiz</button>
+      </form>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
