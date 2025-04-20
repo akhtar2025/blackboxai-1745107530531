@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Microsleep - E-Learning Safety Riding</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-['Roboto'] min-h-screen">
+  <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">Microsleep</h1>
+    <a href="modules.html" class="hover:underline"><i class="fas fa-arrow-left"></i> Kembali ke Modul</a>
+  </header>
+  <main class="max-w-4xl mx-auto p-6 bg-white rounded shadow mt-6">
+    <section class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Materi</h2>
+      <p>Microsleep adalah kondisi mengantuk singkat yang dapat menyebabkan hilangnya kesadaran selama beberapa detik saat berkendara. Hal ini sangat berbahaya dan dapat menyebabkan kecelakaan. Penting untuk mengenali tanda-tanda microsleep dan mengambil tindakan pencegahan seperti istirahat yang cukup dan menghindari mengemudi saat mengantuk.</p>
+    </section>
+    <section>
+      <h2 class="text-lg font-semibold mb-2">Quiz</h2>
+      <form id="quizForm">
+        <div class="mb-4">
+          <p>1. Apa itu microsleep?</p>
+          <label class="block"><input type="radio" name="q1" value="a" required /> a) Kondisi mengantuk singkat yang menyebabkan hilangnya kesadaran</label>
+          <label class="block"><input type="radio" name="q1" value="b" /> b) Teknik pengereman darurat</label>
+          <label class="block"><input type="radio" name="q1" value="c" /> c) Area yang tidak terlihat oleh pengemudi</label>
+        </div>
+        <div class="mb-4">
+          <p>2. Bagaimana cara mencegah microsleep saat berkendara?</p>
+          <label class="block"><input type="radio" name="q2" value="a" required /> a) Istirahat yang cukup dan hindari mengemudi saat mengantuk</label>
+          <label class="block"><input type="radio" name="q2" value="b" /> b) Mengemudi dengan kecepatan tinggi</label>
+          <label class="block"><input type="radio" name="q2" value="c" /> c) Mengabaikan tanda-tanda mengantuk</label>
+        </div>
+        <div class="mb-4">
+          <p>3. Apa bahaya utama dari microsleep saat berkendara?</p>
+          <label class="block"><input type="radio" name="q3" value="a" required /> a) Risiko kecelakaan akibat hilangnya kesadaran sementara</label>
+          <label class="block"><input type="radio" name="q3" value="b" /> b) Membuat pengemudi lebih waspada</label>
+          <label class="block"><input type="radio" name="q3" value="c" /> c) Meningkatkan konsentrasi</label>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Submit Quiz</button>
+      </form>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
